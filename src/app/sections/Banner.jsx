@@ -5,7 +5,7 @@ import SecondaryBtn from "../components/SecondaryBtn";
 
 const Banner = () => {
     return (
-        <div className="xl:py-[150px] lg:py-[100px] md:py-20 py-16 text-center">
+        <div className="xl:py-[150px] lg:py-[100px] md:py-20 py-16 text-center bg-secondaryColor">
             <BodyContainer>
                 <div className="xl:space-y-20 md:space-y-14 space-y-12">
                     <h1 className="font-extrabold xl:text-7xl lg:text-[55px] text-[44px] leading-[50px]">Your Expenses, in Your Control</h1>
@@ -14,9 +14,9 @@ const Banner = () => {
                         <Link href='/login'>
                             <PrimaryBtn big={true} text='get started' />
                         </Link>
-                        <Link href='#'>
+                        <a href='#features'>
                             <SecondaryBtn big={true} text='learn more' />
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </BodyContainer>

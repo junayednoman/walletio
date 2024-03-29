@@ -7,9 +7,9 @@ import forecast from "@/media/forecast.png"
 
 const Features = () => {
     return (
-        <div className="md:mt-[130px] mt-[50px] md:mb-20 mb-12">
+        <div id="features" className="lg:mt-[130px] md:mt-[80px] mt-[50px] lg:mb-20 md:mb-12 mb-10">
             <BodyContainer>
-                <SectionTitle title="What is Walletio?" subtitle="Explore Walletio's Powerful Features" />
+                <SectionTitle title="Our Features" subtitle="Explore Walletio's Powerful Features" />
                 <div className="grid lg:grid-cols-3 xl:gap-8 gap-6 grid-cols-1">
                     <div>
                         <FeaturesCard img={track} title="Intuitive Expense Tracking" text=" Effortlessly log your expenses with TrackWallet's user-friendly interface. Easily add, edit, and categorize transactions to stay organized." />

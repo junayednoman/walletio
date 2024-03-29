@@ -14,6 +14,11 @@ a {
     font-family: "Lato", sans-serif;
 }
 
+body ::selection {
+    background-color: #333333 !important;
+    color: #fff !important;
+}
+
 body {
     color: #333333;
 }
