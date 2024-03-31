@@ -12,7 +12,7 @@ const Copyright = () => {
                 <div className="flex md:flex-row flex-col gap-7 md:text-left text-center items-center justify-between">
                     <div className="flex md:flex-row flex-col items-center gap-7 text-[15px] text-textColor">
                         <div>
-                            <p>Copyright © 2024 Walletio. Made with love by Junayed Noman</p>
+                            <p>Copyright © 2024 Walletio. Made with love by <strong>Junayed Noman</strong></p>
                         </div>
                         <div className="flex items-center gap-5">
                             <Link href='/privacy-policy'>Privacy Policy</Link>
