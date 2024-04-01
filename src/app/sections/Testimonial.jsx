@@ -62,7 +62,7 @@ export default function Testimonial() {
                     }}
                 >
                     <Tabs
-                        className='min-w-[300px] font-montserrat'
+                        className='min-w-[270px] font-montserrat'
                         orientation="vertical"
                         variant="scrollable"
                         value={value}
@@ -72,7 +72,7 @@ export default function Testimonial() {
                     >
                         <Tab className='font-montserrat' label="Entrepreneur" {...a11yProps(0)} />
                         <Tab className='font-montserrat' label="Freelancer" {...a11yProps(1)} />
-                        <Tab className='font-montserrat' label="Small Business Owner" {...a11yProps(2)} />
+                        <Tab className='font-montserrat' label="Content Creator" {...a11yProps(2)} />
                         <Tab className='font-montserrat' label="Traveler" {...a11yProps(3)} />
                     </Tabs>
                     <TabPanel value={value} index={0} className="pl-8">
