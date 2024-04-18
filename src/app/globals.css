@@ -6,94 +6,113 @@
 @tailwind utilities;
 
 p {
-    font-family: "Lato", sans-serif;
-    color: #666;
+  font-family: "Lato", sans-serif;
+  color: #666;
 }
 
 a {
-    font-family: "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 body ::selection {
-    background-color: #333333 !important;
-    color: #fff !important;
+  background-color: #333333 !important;
+  color: #fff !important;
 }
 
 body {
-    color: #333333;
+  color: #333333;
 }
 
 .instaIcon:hover {
-    background: linear-gradient(135deg, #f9ce34, #ee2a7b, #6228d7);
+  background: linear-gradient(135deg, #f9ce34, #ee2a7b, #6228d7);
 }
 
 .MuiBox-root .css-19kzrtu {
-    padding: 0 !important;
+  padding: 0 !important;
 }
 
 .css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
-    color: #000;
+  color: #000;
 }
 
 .css-10d9dml-MuiTabs-indicator {
-    background-color: #000;
+  background-color: #000;
 }
 
 .mui_tabs {
-    font-family: "Lato", sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .collapse {
-    margin: 10px 0;
+  margin: 10px 0;
 }
 
 .modal-box {
-    border-radius: 7px;
-    padding: 30px;
+  border-radius: 7px;
+  padding: 30px;
 }
-.css-hyum1k-MuiToolbar-root{
-    background-color: #fff !important;
+
+.css-hyum1k-MuiToolbar-root {
+  background-color: #fff !important;
 }
-.MuiAppBar-positionFixed{
-    box-shadow: none !important;
-    border-bottom: 1px solid #e6e6e6;
+
+.MuiAppBar-positionFixed {
+  box-shadow: none !important;
+  border-bottom: 1px solid #e6e6e6;
 }
+
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper {
+  max-height: 100vh;
+}
+
 .css-12i7wg6-MuiPaper-root-MuiDrawer-paper::-webkit-scrollbar {
-    width: 8px; /* Width of the scrollbar */
-  }
-  
-  .css-12i7wg6-MuiPaper-root-MuiDrawer-paper::-webkit-scrollbar-track {
-    background: #fff; /* Color of the track */
-  }
-  
-  .css-12i7wg6-MuiPaper-root-MuiDrawer-paper::-webkit-scrollbar-thumb {
-    background: #888; /* Color of the scrollbar */
-    border-radius: 3px;
-  }
-  
-  .css-12i7wg6-MuiPaper-root-MuiDrawer-paper::-webkit-scrollbar-thumb:hover {
-    background: #555; /* Color of the scrollbar on hover */
-  }
+  width: 8px;
+  /* Width of the scrollbar */
+}
+
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper::-webkit-scrollbar-track {
+  background: #fff;
+  /* Color of the track */
+}
+
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper::-webkit-scrollbar-thumb {
+  background: #888;
+  /* Color of the scrollbar */
+  border-radius: 3px;
+}
+
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  /* Color of the scrollbar on hover */
+}
+
 .notificationDropdown::-webkit-scrollbar {
-    width: 8px; /* Width of the scrollbar */
-  }
-  
-  .notificationDropdown::-webkit-scrollbar-track {
-    background: #fff; /* Color of the track */
-  }
-  
-  .notificationDropdown::-webkit-scrollbar-thumb {
-    background: #888; /* Color of the scrollbar */
-    border-radius: 3px;
-  }
-  
-  .notificationDropdown::-webkit-scrollbar-thumb:hover {
-    background: #555; /* Color of the scrollbar on hover */
-  }
-  .MuiBadge-badge{
-    background-color: #e74c3c;
-    color: white;
-  }
-  .css-168noda, .css-vwd6ro{
-    background-color: #ffffff !important;
-  }
+  width: 8px;
+  /* Width of the scrollbar */
+}
+
+.notificationDropdown::-webkit-scrollbar-track {
+  background: #fff;
+  /* Color of the track */
+}
+
+.notificationDropdown::-webkit-scrollbar-thumb {
+  background: #888;
+  /* Color of the scrollbar */
+  border-radius: 3px;
+}
+
+.notificationDropdown::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  /* Color of the scrollbar on hover */
+}
+
+.MuiBadge-badge {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.css-168noda,
+.css-vwd6ro {
+  background-color: #ffffff !important;
+}
