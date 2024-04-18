@@ -46,3 +46,51 @@ body {
 .collapse {
     margin: 10px 0;
 }
+
+.modal-box {
+    border-radius: 7px;
+    padding: 30px;
+}
+.css-hyum1k-MuiToolbar-root{
+    background-color: #fff !important;
+}
+.MuiAppBar-positionFixed{
+    box-shadow: none !important;
+    border-bottom: 1px solid #e6e6e6;
+}
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  .css-12i7wg6-MuiPaper-root-MuiDrawer-paper::-webkit-scrollbar-track {
+    background: #fff; /* Color of the track */
+  }
+  
+  .css-12i7wg6-MuiPaper-root-MuiDrawer-paper::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar */
+    border-radius: 3px;
+  }
+  
+  .css-12i7wg6-MuiPaper-root-MuiDrawer-paper::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar on hover */
+  }
+.notificationDropdown::-webkit-scrollbar {
+    width: 8px; /* Width of the scrollbar */
+  }
+  
+  .notificationDropdown::-webkit-scrollbar-track {
+    background: #fff; /* Color of the track */
+  }
+  
+  .notificationDropdown::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the scrollbar */
+    border-radius: 3px;
+  }
+  
+  .notificationDropdown::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the scrollbar on hover */
+  }
+  .MuiBadge-badge{
+    background-color: #e74c3c;
+    color: white;
+  }
