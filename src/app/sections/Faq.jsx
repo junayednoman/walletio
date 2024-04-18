@@ -31,7 +31,7 @@ const Faq = () => {
                         Can I access Walletio on my mobile device?
                     </div>
                     <div className="collapse-content">
-                        <p>Yes, Walletio is fully optimized for mobile devices, allowing you to access your expense data anytime, anywhere. Whether you're using a smartphone or tablet, you can conveniently manage your expenses on the go through Walletio's responsive web interface.</p>
+                        <p>Yes, Walletio is fully optimized for mobile devices, allowing you to access your expense data anytime, anywhere. Whether you are using a smartphone or tablet, you can conveniently manage your expenses on the go through responsive web interface of Walletio.</p>
                     </div>
                 </div>
                 <div className="collapse collapse-plus bg-secondaryColor rounded-md">
@@ -49,7 +49,7 @@ const Faq = () => {
                         Is there a free trial available for Walletio?
                     </div>
                     <div className="collapse-content">
-                        <p>Yes, Walletio offers a free trial period for new users to experience the full functionality of the app. During the trial period, you'll have access to all features, including budgeting tools, expense tracking, and reporting capabilities. At the end of the trial, you'll have the option to subscribe to a paid plan to continue using Walletio.</p>
+                        <p>Yes, Walletio offers a free trial period for new users to experience the full functionality of the app. During the trial period, you will have access to all features, including budgeting tools, expense tracking, and reporting capabilities. At the end of the trial, you will have the option to subscribe to a paid plan to continue using Walletio.</p>
                     </div>
                 </div>
                 <div className="collapse collapse-plus bg-secondaryColor rounded-md">
